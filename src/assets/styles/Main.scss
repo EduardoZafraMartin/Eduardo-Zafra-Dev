@@ -58,6 +58,13 @@
     background-position: center;
 }
 
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    .about-section {
+      background-attachment: scroll; /* Para evitar problemas en móviles */
+    }
+  }
+
 .about-section .content {
     text-align: left;
     z-index: 2;

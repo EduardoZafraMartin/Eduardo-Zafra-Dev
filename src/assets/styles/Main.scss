@@ -43,7 +43,7 @@
       width: 100%;
     }
   }
-.about-section {
+  .about-section {
     display: flex;
     gap: 30px;
     justify-content: flex-start;
@@ -54,17 +54,17 @@
     background-image: url("../images/bg-dark.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; /* Problema común en móviles */
     background-position: center;
 }
 
-/* Media query para dispositivos móviles */
+/* Para pantallas pequeñas */
 @media (max-width: 768px) {
     .about-section {
-      background-attachment: scroll; /* Para evitar problemas en móviles */
+        background-attachment: scroll; /* Cambiar a 'scroll' para móviles */
+        background-size: contain; /* Asegúrate de que la imagen se ajuste bien */
     }
-  }
-
+}
 .about-section .content {
     text-align: left;
     z-index: 2;

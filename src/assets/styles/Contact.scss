@@ -1,0 +1,79 @@
+/* Asegúrate de que los estilos sean específicos y no sean sobrescritos */
+.contact-wrapper svg {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contact-form {
+  padding-top: 20px;
+}
+
+.contact-form button {
+  float: right;
+  background-color: white;
+  color: #050f0b;
+}
+
+.contact-form button:hover {
+  background-color: #5000ca;
+  color: white;
+}
+
+.contact-form fieldset {
+  background-color: white;
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
+}
+
+/* Asegúrate de que los inputs sean visibles */
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.form-flex .MuiFormControl-root {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+/* Modificaciones para los inputs: asegúrate de que sean visibles */
+.contact-form .MuiOutlinedInput-root {
+  background-color: white !important; /* Fondo blanco para los inputs */
+  color: #333 !important; /* Color oscuro para el texto */
+  border: 1px solid #ccc !important; /* Borde claro y visible */
+}
+
+.contact-form .MuiOutlinedInput-root:hover {
+  border-color: #5000ca !important; /* Cambiar color del borde cuando se pasa el ratón */
+}
+
+.contact-form .MuiInputLabel-root {
+  color: #5000ca !important; /* Etiquetas en color púrpura */
+}
+
+.contact-form .MuiOutlinedInput-root input {
+  color: #333 !important; /* Color del texto dentro del input */
+  background-color: white !important; /* Asegúrate de que el fondo del texto sea blanco */
+}
+
+input::placeholder {
+  color: #888 !important; /* Placeholder en color gris */
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
+
+/* Asegurarse de que el borde sea visible al enfocar el campo */
+input:focus {
+  outline: none; /* Quitar el borde azul al hacer foco */
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Eduardo-Zafra-Dev/static/css/main.8c6e933a.css",
+    "main.js": "/Eduardo-Zafra-Dev/static/js/main.341f4af8.js",
+    "static/js/453.b05d8aa5.chunk.js": "/Eduardo-Zafra-Dev/static/js/453.b05d8aa5.chunk.js",
+    "static/media/mock2.png": "/Eduardo-Zafra-Dev/static/media/mock2.1aa2b5c58d415981a5a1.png",
+    "static/media/bg-light.png": "/Eduardo-Zafra-Dev/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/mock3.png": "/Eduardo-Zafra-Dev/static/media/mock3.935439aee7f4f0c78d69.png",
+    "static/media/mock5.png": "/Eduardo-Zafra-Dev/static/media/mock5.6686ddaf7cc6ba57a044.png",
+    "static/media/bg-dark.png": "/Eduardo-Zafra-Dev/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/mock1.png": "/Eduardo-Zafra-Dev/static/media/mock1.a9e2ff3bedd50312dff7.png",
+    "static/media/mock4.png": "/Eduardo-Zafra-Dev/static/media/mock4.0b20c653addc326c4d23.png",
+    "static/media/edufoto.jpg": "/Eduardo-Zafra-Dev/static/media/edufoto.1e2c3b55cfde4d032f54.jpg",
+    "index.html": "/Eduardo-Zafra-Dev/index.html",
+    "main.8c6e933a.css.map": "/Eduardo-Zafra-Dev/static/css/main.8c6e933a.css.map",
+    "main.341f4af8.js.map": "/Eduardo-Zafra-Dev/static/js/main.341f4af8.js.map",
+    "453.b05d8aa5.chunk.js.map": "/Eduardo-Zafra-Dev/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c6e933a.css",
+    "static/js/main.341f4af8.js"
+  ]
+}

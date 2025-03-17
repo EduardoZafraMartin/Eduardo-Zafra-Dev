@@ -60,9 +60,16 @@
 
 /* Para pantallas pequeñas */
 @media (max-width: 768px) {
-    .about-section {
-        background-attachment: scroll; /* Cambiar a 'scroll' para móviles */
-        background-size: contain; /* Asegúrate de que la imagen se ajuste bien */
+    .social_icons a {
+        display: inline-block; 
+        margin-bottom: 10px; 
+    }
+
+    .social_icons button {
+        display: block; 
+        width: 100%; 
+        max-width: 200px; 
+        margin: 0 auto; 
     }
 }
 .about-section .content {

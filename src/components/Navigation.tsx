@@ -77,7 +77,7 @@ function Navigation({parentToChild, modeChange}: any) {
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
       <AppBar component="nav" id="navigation" className={`navbar-fixed-top${scrolled ? ' scrolled' : ''}`}>
-        <Toolbar className='navigation-bar'>
+        <Toolbar className='navigation-bar' sx={{ display: 'flex', justifyContent: 'flex-end', width: '100%' }}>
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -87,11 +87,11 @@ function Navigation({parentToChild, modeChange}: any) {
           >
             <MenuIcon />
           </IconButton>
-          {mode === 'dark' ? (
-            <LightModeIcon onClick={() => modeChange()}/>
-          ) : (
-            <DarkModeIcon onClick={() => modeChange()}/>
-          )}
+          {/* {mode === 'dark' ? (
+    <LightModeIcon onClick={() => modeChange()} />
+  ) : (
+    <DarkModeIcon onClick={() => modeChange()} />
+  )} */}
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Button key={item[0]} onClick={() => scrollToSection(item[1])} sx={{ color: '#fff' }}>
